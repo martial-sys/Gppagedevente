@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions Légales | Martial Digital</title>
+    <title>Mentions Légales | Lumifolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-    	/* ========================================= */
+    	
+    /* ========================================= */
 /* 0. ÉVITE LES DÉBORDEMENTS LATÉRAUX INDÉSIRABLES*/
 /* ========================================= */
 /* 0: Réinitialisation et verrouillage horizontal – Évite les débordements latéraux indésirables */
@@ -25,15 +27,61 @@ html, body {
     box-sizing: border-box;
     /* Évite les bugs de layout liés aux padding et borders */
 }
-        body { font-family: 'Poppins', sans-serif; line-height: 1.7; color: #425466; background-color: #F6F9FC; margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 40px auto; padding: 40px; background-color: #FFFFFF; border-radius: 8px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); }
-        h1, h2 { color: #0A2540; }
-        a { color: #007BFF; }
-        .logo { max-height: 45px; margin-bottom: 20px; }
+        :root {
+            --color-primary-deep-blue: #0A2540;
+            --color-primary-action-blue: #007BFF;
+            --color-text-body: #425466;
+            --color-background-page: #F6F9FC;
+            --color-background-card: #FFFFFF;
+            --font-family-primary: 'Poppins', sans-serif;
+        }
+        body {
+            font-family: var(--font-family-primary);
+            line-height: 1.7;
+            color: var(--color-text-body);
+            background-color: var(--color-background-page);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: var(--color-background-card);
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid var(--color-primary-deep-blue);
+        }
+        h1, h2 {
+            color: var(--color-primary-deep-blue);
+            border-bottom: 1px solid #e6e6e6;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: none;
+            margin-top: 0;
+        }
+        .logo {
+            display: block;
+            max-height: 45px;
+            margin: 0 auto 20px auto;
+        }
+        a {
+            color: var(--color-primary-action-blue);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-weight: 600;
+        }
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -42,39 +90,37 @@ html, body {
 
         <h2>1. Éditeur du site</h2>
         <p>
-            Le site accessible à l'adresse https://comunidade.lojaintegrada.com.br/t/pagina-de-redirecionamento-apos-a-compra/60574 est édité par :<br>
+            Le site accessible à l'adresse <strong>https://www.lumifolio.com</strong> est édité par :<br>
             <strong>Martial Digital</strong><br>
-            Statut juridique : [À COMPLÉTER : Entreprise Individuelle, SARL, etc.]<br>
-            Adresse : [À COMPLÉTER : Votre adresse professionnelle]<br>
-            Email : <a href="mailto:contact@martialdigital.com">contact@martialdigital.com</a> [cite: 419]<br>
-            Numéro d'immatriculation : [À COMPLÉTER : N° RCCM si applicable]
+            Statut juridique : Auto-entrepreneur<br>
+            Adresse : Lomé, Togo<br>
+            Email : <a href="mailto:contact@lumifolio.com">contact@lumifolio.com</a>
         </p>
 
         <h2>2. Directeur de la publication</h2>
         <p>
             Le directeur de la publication est :<br>
-            <strong>[À COMPLÉTER : Votre Prénom et Nom]</strong>, en qualité de [À COMPLÉTER : Gérant, Fondateur, etc.].
+            <strong>TOVON Kodzo Martial</strong>, en qualité de Fondateur.
         </p>
 
         <h2>3. Hébergement</h2>
         <p>
             Le site est hébergé par :<br>
-            <strong>[À COMPLÉTER : Nom de votre hébergeur, ex: LWS, Hostinger, etc.]</strong><br>
-            Adresse de l'hébergeur : [À COMPLÉTER]<br>
-            Contact de l'hébergeur : [À COMPLÉTER]
+            <strong>Render Inc.</strong><br>
+            Adresse : 525 Brannan St, San Francisco, CA 94107, USA
         </p>
 
         <h2>4. Propriété intellectuelle</h2>
         <p>
-            L'ensemble des éléments constituant ce site (textes, graphismes, logos, vidéos, et le concept du "Générateur de Portfolio Prestige" [cite: 268]) sont la propriété exclusive de Martial Digital, sauf mention contraire. Toute reproduction, même partielle, sans autorisation écrite préalable est strictement interdite et constitue une contrefaçon.
+            L'ensemble des éléments constituant ce site (textes, graphismes, logos, vidéos, et le concept du "Générateur de Portfolio Prestige") sont la propriété exclusive de Martial Digital, sauf mention contraire. Toute reproduction, même partielle, sans autorisation écrite préalable est strictement interdite.
         </p>
         
         <h2>5. Responsabilité</h2>
         <p>
-            Martial Digital s'efforce de fournir des informations aussi précises que possible. Toutefois, des inexactitudes ou omissions peuvent exister. L'utilisateur du site est seul responsable de l'utilisation qu'il fait des informations présentes sur le site.
+            Martial Digital s'efforce de fournir des informations aussi précises que possible. Toutefois, des inexactitudes ou omissions peuvent exister. L'utilisateur est seul responsable de l'utilisation qu'il fait des informations présentes sur le site.
         </p>
 
-        <p><a href="index.html">Retour à l'accueil</a></p>
+        <a href="index.html" class="footer-link">Retour à l'accueil</a>
     </div>
 </body>
 </html>
